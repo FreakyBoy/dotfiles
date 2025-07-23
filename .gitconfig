@@ -1,0 +1,5 @@
+[core]
+	autocrlf = input
+[user]
+	name = Patryk Rzyszka
+	email = patryk@network-genius.com
