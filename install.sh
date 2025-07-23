@@ -41,5 +41,18 @@ if [ -f "$DOTFILES_DIR/.gitconfig" ]; then
     link_file "$DOTFILES_DIR/.gitconfig" "$HOME/.gitconfig"
 fi
 
+# Link AeroSpace config
+if [ -f "$DOTFILES_DIR/.aerospace.toml" ]; then
+    link_file "$DOTFILES_DIR/.aerospace.toml" "$HOME/.aerospace.toml"
+fi
+
+# Link JankyBorders config
+if [ -d "$DOTFILES_DIR/.config/borders" ]; then
+    mkdir -p "$HOME/.config/borders"
+    if [ -f "$DOTFILES_DIR/.config/borders/bordersrc" ]; then
+        link_file "$DOTFILES_DIR/.config/borders/bordersrc" "$HOME/.config/borders/bordersrc"
+    fi
+fi
+
 echo "Dotfiles installation complete!"
 echo "You may need to restart your terminal or run 'source ~/.zshrc' to apply changes."
