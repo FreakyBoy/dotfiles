@@ -6,7 +6,7 @@ My personal dotfiles configuration for macOS.
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/dotfiles.git ~/dotfiles
+   git clone https://github.com/FreakyBoy/dotfiles.git ~/dotfiles
    ```
 
 2. Run the installation script:
@@ -19,6 +19,8 @@ My personal dotfiles configuration for macOS.
 
 - `.zshrc` - Zsh shell configuration
 - `.gitconfig` - Git configuration
+- `.aerospace.toml` - [AeroSpace](https://github.com/nikitabobko/AeroSpace) window manager configuration
+- `.config/borders/bordersrc` - [JankyBorders](https://github.com/FelixKratz/JankyBorders) configuration
 - `install.sh` - Installation script that creates symlinks
 
 ## Updating
