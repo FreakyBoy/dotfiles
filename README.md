@@ -21,6 +21,7 @@ My personal dotfiles configuration for macOS.
 - `.gitconfig` - Git configuration
 - `.aerospace.toml` - [AeroSpace](https://github.com/nikitabobko/AeroSpace) window manager configuration
 - `.config/borders/bordersrc` - [JankyBorders](https://github.com/FelixKratz/JankyBorders) configuration
+- `.config/sketchybar/` - [SketchyBar](https://github.com/FelixKratz/SketchyBar) status bar configuration
 - `install.sh` - Installation script that creates symlinks
 
 ## Updating

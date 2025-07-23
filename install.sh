@@ -54,5 +54,11 @@ if [ -d "$DOTFILES_DIR/.config/borders" ]; then
     fi
 fi
 
+# Link SketchyBar config
+if [ -d "$DOTFILES_DIR/.config/sketchybar" ]; then
+    mkdir -p "$HOME/.config"
+    link_file "$DOTFILES_DIR/.config/sketchybar" "$HOME/.config/sketchybar"
+fi
+
 echo "Dotfiles installation complete!"
 echo "You may need to restart your terminal or run 'source ~/.zshrc' to apply changes."
