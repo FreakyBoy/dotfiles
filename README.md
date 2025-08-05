@@ -21,6 +21,9 @@ My personal dotfiles configuration for macOS.
 - `.gitconfig` - Git configuration
 - `.aerospace.toml` - [AeroSpace](https://github.com/nikitabobko/AeroSpace) window manager configuration
 - `.config/borders/bordersrc` - [JankyBorders](https://github.com/FelixKratz/JankyBorders) configuration
+  - Rounded window borders with 6px width
+  - Active window color: `#da614e` (orange)
+  - Inactive window color: `#414550` (dark gray)
 - `.config/sketchybar/` - [SketchyBar](https://github.com/FelixKratz/SketchyBar) status bar configuration
 - `install.sh` - Installation script that creates symlinks
 
